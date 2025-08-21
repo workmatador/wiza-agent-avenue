@@ -2,12 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
+/* WIZA B2B Travel Visa Platform - Professional Design System
+All colors MUST be HSL. Focus on trust, reliability, and professionalism.
 */
 
 @layer base {
   :root {
+    /* Core Brand Colors - Professional Blues */
     --background: 0 0% 100%;
     --foreground: 222.2 84% 4.9%;
 
@@ -17,24 +18,53 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Primary - Corporate Navy Blue for trust and authority */
+    --primary: 214 84% 15%;
+    --primary-foreground: 0 0% 98%;
+    
+    /* Primary Variants for gradients and hover states */
+    --primary-light: 214 65% 25%;
+    --primary-dark: 214 95% 8%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Secondary - Professional Light Blue */
+    --secondary: 207 90% 95%;
+    --secondary-foreground: 214 84% 15%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    /* Accent - Warm Professional Orange for CTAs */
+    --accent: 25 95% 60%;
+    --accent-foreground: 0 0% 98%;
+    --accent-light: 25 85% 70%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Muted - Neutral Grays */
+    --muted: 220 14% 96%;
+    --muted-foreground: 220 8.9% 46.1%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 214 84% 15%;
+    
+    /* Success Color for positive actions */
+    --success: 142 76% 36%;
+    --success-foreground: 0 0% 98%;
+
+    /* Professional Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(214 84% 15%), hsl(214 65% 25%));
+    --gradient-hero: linear-gradient(135deg, hsl(214 95% 8%), hsl(214 84% 15%), hsl(214 65% 25%));
+    --gradient-accent: linear-gradient(135deg, hsl(25 95% 60%), hsl(25 85% 70%));
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%), hsl(220 14% 98%));
+
+    /* Professional Shadows */
+    --shadow-sm: 0 1px 2px 0 hsl(214 84% 15% / 0.05);
+    --shadow-md: 0 4px 6px -1px hsl(214 84% 15% / 0.1);
+    --shadow-lg: 0 10px 15px -3px hsl(214 84% 15% / 0.1);
+    --shadow-hero: 0 25px 50px -12px hsl(214 84% 15% / 0.25);
+
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-fast: all 0.15s ease-in-out;
 
     --radius: 0.5rem;
 
