@@ -299,13 +299,13 @@ const Index = () => {
                 <ul className="space-y-2 text-sm text-primary-foreground/80">
                   <li>info@wizafortravel.com</li>
                   <li>+91 7899491283</li>
-                  <li>10, Sankey Road, Next to BDA Complex, Kumara Park West, Seshadripuram, Bengaluru - 560 020</li>
+                  <li>10, Sankey Road, Next to BDA Head Office, Kumara Park West, Seshadripuram, Bengaluru - 560 020</li>
                 </ul>
               </div>
             </div>
             
             <div className="border-t border-primary-foreground/20 mt-8 pt-8 text-center text-sm text-primary-foreground/60">
-              <p>&copy; 2024 WIZA. All rights reserved. Built on 40+ years of travel industry expertise.</p>
+              <p>&copy; 2025 WIZA. All rights reserved. Built on 40+ years of travel industry expertise.</p>
             </div>
           </div>
         </footer>
