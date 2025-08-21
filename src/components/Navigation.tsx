@@ -10,9 +10,11 @@ const Navigation = () => {
     <header className="bg-background shadow-professional-sm border-b border-border sticky top-0 z-50">
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         <Link to="/" className="flex items-center space-x-2">
-          <div className="w-8 h-8 bg-gradient-primary rounded-lg flex items-center justify-center">
-            <span className="text-primary-foreground font-bold text-lg">W</span>
-          </div>
+          <img 
+            src="/lovable-uploads/85666f82-b58d-442a-b3e7-4f0b912d34ca.png" 
+            alt="WIZA Logo" 
+            className="h-8 w-auto"
+          />
           <span className="text-2xl font-bold text-primary">WIZA</span>
         </Link>
         

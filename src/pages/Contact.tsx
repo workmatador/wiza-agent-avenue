@@ -167,10 +167,6 @@ const Contact = () => {
                         <div className="w-2 h-2 bg-accent rounded-full"></div>
                         <span className="text-muted-foreground">Expert support throughout the process</span>
                       </div>
-                      <div className="flex items-center space-x-3">
-                        <div className="w-2 h-2 bg-accent rounded-full"></div>
-                        <span className="text-muted-foreground">Strong embassy and consulate relationships</span>
-                      </div>
                     </div>
                   </CardContent>
                 </Card>
@@ -187,11 +183,11 @@ const Contact = () => {
                     <div className="space-y-3 text-primary-foreground/90">
                       <p className="flex items-center justify-center space-x-2">
                         <span>📧</span>
-                        <span>partnerships@wiza.com</span>
+                        <span>info@wizafortravel.com</span>
                       </p>
                       <p className="flex items-center justify-center space-x-2">
                         <span>📞</span>
-                        <span>+1 (800) WIZA-B2B</span>
+                        <span>+91 7899491283</span>
                       </p>
                       <p className="flex items-center justify-center space-x-2">
                         <span>⏰</span>

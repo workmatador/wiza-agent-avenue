@@ -112,19 +112,6 @@ const Index = () => {
                 </CardContent>
               </Card>
               
-              <Card className="bg-gradient-card shadow-professional-md hover:shadow-professional-lg transition-all duration-300">
-                <CardHeader className="text-center pb-4">
-                  <div className="w-16 h-16 bg-gradient-accent rounded-full flex items-center justify-center mx-auto mb-4">
-                    <span className="text-3xl text-accent-foreground">🏛️</span>
-                  </div>
-                  <CardTitle className="text-primary">Embassy Liaison</CardTitle>
-                </CardHeader>
-                <CardContent className="text-center">
-                  <p className="text-muted-foreground">
-                    Direct relationships with embassies and consulates worldwide for efficient application submission.
-                  </p>
-                </CardContent>
-              </Card>
               
               <Card className="bg-gradient-card shadow-professional-md hover:shadow-professional-lg transition-all duration-300">
                 <CardHeader className="text-center pb-4">
@@ -140,19 +127,6 @@ const Index = () => {
                 </CardContent>
               </Card>
               
-              <Card className="bg-gradient-card shadow-professional-md hover:shadow-professional-lg transition-all duration-300">
-                <CardHeader className="text-center pb-4">
-                  <div className="w-16 h-16 bg-gradient-primary rounded-full flex items-center justify-center mx-auto mb-4">
-                    <span className="text-3xl text-primary-foreground">💼</span>
-                  </div>
-                  <CardTitle className="text-primary">Business Travel</CardTitle>
-                </CardHeader>
-                <CardContent className="text-center">
-                  <p className="text-muted-foreground">
-                    Specialized processing for business visas with expedited services for urgent travel requirements.
-                  </p>
-                </CardContent>
-              </Card>
               
               <Card className="bg-gradient-card shadow-professional-md hover:shadow-professional-lg transition-all duration-300">
                 <CardHeader className="text-center pb-4">
@@ -265,10 +239,6 @@ const Index = () => {
                   </div>
                   <div className="flex items-center space-x-3">
                     <div className="w-2 h-2 bg-success rounded-full"></div>
-                    <span className="text-muted-foreground">White-label solution options</span>
-                  </div>
-                  <div className="flex items-center space-x-3">
-                    <div className="w-2 h-2 bg-success rounded-full"></div>
                     <span className="text-muted-foreground">Comprehensive training program</span>
                   </div>
                   <div className="flex items-center space-x-3">
@@ -305,9 +275,11 @@ const Index = () => {
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
               <div>
                 <div className="flex items-center space-x-2 mb-4">
-                  <div className="w-8 h-8 bg-accent rounded-lg flex items-center justify-center">
-                    <span className="text-accent-foreground font-bold text-lg">W</span>
-                  </div>
+                  <img 
+                    src="/lovable-uploads/85666f82-b58d-442a-b3e7-4f0b912d34ca.png" 
+                    alt="WIZA Logo" 
+                    className="h-8 w-auto"
+                  />
                   <span className="text-2xl font-bold">WIZA</span>
                 </div>
                 <p className="text-primary-foreground/80 text-sm">
@@ -321,7 +293,6 @@ const Index = () => {
                 <ul className="space-y-2 text-sm text-primary-foreground/80">
                   <li>Visa Processing</li>
                   <li>Document Review</li>
-                  <li>Embassy Liaison</li>
                   <li>Express Services</li>
                 </ul>
               </div>
@@ -333,15 +304,17 @@ const Index = () => {
                   <li><Link to="/contact" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">Contact</Link></li>
                   <li><Link to="/privacy" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">Privacy Policy</Link></li>
                   <li><Link to="/terms" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">Terms & Conditions</Link></li>
+                  <li><Link to="/payments-refunds" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">Payments & Refunds</Link></li>
                 </ul>
               </div>
               
               <div>
                 <h4 className="font-semibold mb-4">Contact</h4>
                 <ul className="space-y-2 text-sm text-primary-foreground/80">
-                  <li>partnerships@wiza.com</li>
-                  <li>+1 (800) WIZA-B2B</li>
+                  <li>info@wizafortravel.com</li>
+                  <li>+91 7899491283</li>
                   <li><Link to="/policy" className="hover:text-primary-foreground transition-colors">Cancellation Policy</Link></li>
+                  <li><Link to="/payments-refunds" className="hover:text-primary-foreground transition-colors">Payments & Refunds</Link></li>
                 </ul>
               </div>
             </div>
