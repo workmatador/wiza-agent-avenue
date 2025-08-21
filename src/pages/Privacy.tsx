@@ -23,7 +23,7 @@ const Privacy = () => {
               Privacy Policy
             </h1>
             <p className="text-lg text-primary-foreground/80 max-w-2xl mx-auto">
-              Last updated: November 2024
+              Last updated: August 2025
             </p>
           </div>
         </section>
@@ -168,9 +168,8 @@ const Privacy = () => {
                       If you have any questions about this Privacy Policy, please contact us:
                     </p>
                     <ul className="space-y-1 text-muted-foreground ml-6">
-                      <li>By email: privacy@wiza.com</li>
-                      <li>By phone: +1 (800) WIZA-B2B</li>
-                      <li>On our contact page: /contact</li>
+                      <li>By email: info@wizafortravel.com</li>
+                      <li>By phone: +91 78994 91283</li>
                     </ul>
                   </div>
                 </div>

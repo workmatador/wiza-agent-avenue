@@ -46,12 +46,12 @@ const About = () => {
                     This deep industry knowledge led us to create WIZA—a B2B platform designed 
                     specifically for agents, by agents.
                   </p>
-                  <p>
+                  <p className="text-lg">
                     We recognized that travel agents needed a reliable, efficient partner for 
                     visa processing that could handle the complexities of modern travel requirements 
                     while maintaining the personal touch that defines exceptional service.
                   </p>
-                  <p>
+                  <p className="text-lg">
                     Today, WIZA serves as the bridge between travel agents and their clients' 
                     visa needs, ensuring smooth, professional processing backed by decades 
                     of industry expertise.

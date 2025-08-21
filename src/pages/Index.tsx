@@ -142,19 +142,6 @@ const Index = () => {
                 </CardContent>
               </Card>
               
-              <Card className="bg-gradient-card shadow-professional-md hover:shadow-professional-lg transition-all duration-300">
-                <CardHeader className="text-center pb-4">
-                  <div className="w-16 h-16 bg-success rounded-full flex items-center justify-center mx-auto mb-4">
-                    <span className="text-3xl text-success-foreground">🚀</span>
-                  </div>
-                  <CardTitle className="text-primary">Express Processing</CardTitle>
-                </CardHeader>
-                <CardContent className="text-center">
-                  <p className="text-muted-foreground">
-                    Urgent visa processing services for last-minute travel needs with guaranteed turnaround times.
-                  </p>
-                </CardContent>
-              </Card>
             </div>
           </div>
         </section>
@@ -280,7 +267,6 @@ const Index = () => {
                     alt="WIZA" 
                     className="h-8 w-auto"
                   />
-                  <span className="text-2xl font-bold">WIZA</span>
                 </div>
                 <p className="text-primary-foreground/80 text-sm">
                   Professional B2B travel visa processing platform. 
@@ -313,7 +299,7 @@ const Index = () => {
                 <ul className="space-y-2 text-sm text-primary-foreground/80">
                   <li>info@wizafortravel.com</li>
                   <li>+91 7899491283</li>
-                  <li><Link to="/policy" className="hover:text-primary-foreground transition-colors">Refund Policy</Link></li>
+                  <li>10, Sankey Road, Next to BDA Complex, Kumara Park West, Seshadripuram, Bengaluru - 560 020</li>
                 </ul>
               </div>
             </div>

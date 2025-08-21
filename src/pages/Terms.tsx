@@ -23,7 +23,7 @@ const Terms = () => {
               Terms and Conditions
             </h1>
             <p className="text-lg text-primary-foreground/80 max-w-2xl mx-auto">
-              Last updated: November 2024
+              Last updated: August 2025
             </p>
           </div>
         </section>
@@ -180,7 +180,7 @@ const Terms = () => {
                   <div>
                     <h2 className="text-2xl font-semibold text-primary mb-4">12. Governing Law</h2>
                     <p className="text-muted-foreground mb-4">
-                      12.1. These Terms shall be interpreted and governed by the laws of the jurisdiction where WIZA is incorporated, without regard to its conflict of law provisions.
+                      12.1. These Terms shall be interpreted and governed by the laws of the jurisdiction where WIZA is incorporated, i.e., Bengaluru, Karnataka; without regard to its conflict of law provisions.
                     </p>
                     <p className="text-muted-foreground mb-4">
                       12.2. Any disputes arising from these Terms shall be resolved through binding arbitration or in the courts of competent jurisdiction.
@@ -203,9 +203,8 @@ const Terms = () => {
                       If you have any questions about these Terms and Conditions, please contact us:
                     </p>
                     <ul className="space-y-1 text-muted-foreground ml-6">
-                      <li>By email: legal@wiza.com</li>
-                      <li>By phone: +1 (800) WIZA-B2B</li>
-                      <li>On our contact page: /contact</li>
+                      <li>By email: info@wizafortravel.com</li>
+                      <li>By phone: +91 78994 91283</li>
                     </ul>
                   </div>
                 </div>

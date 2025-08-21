@@ -23,7 +23,7 @@ const PaymentsRefunds = () => {
               Payments & Refunds Policy
             </h1>
             <p className="text-lg text-primary-foreground/80 max-w-2xl mx-auto">
-              Last updated: December 2024
+              Last updated: August 2025
             </p>
           </div>
         </section>
@@ -166,9 +166,8 @@ const PaymentsRefunds = () => {
                     </p>
                     <ul className="space-y-1 text-muted-foreground ml-6">
                       <li>Email: info@wizafortravel.com</li>
-                      <li>Phone: +91 7899491283</li>
+                      <li>Phone: +91 78994 91283</li>
                       <li>Business Hours: Monday - Friday, 9:00 AM - 6:00 PM IST</li>
-                      <li>Emergency Support: Available for urgent inquiries</li>
                     </ul>
                   </div>
                 </div>
