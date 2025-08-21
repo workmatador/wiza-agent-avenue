@@ -47,7 +47,7 @@ const Index = () => {
                   </Button>
                 </Link>
                 <Link to="/about">
-                  <Button size="lg" variant="outline" className="text-lg font-semibold min-w-[200px] border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary">
+                  <Button size="lg" variant="secondary" className="text-lg font-semibold min-w-[200px]">
                     Learn More
                   </Button>
                 </Link>
@@ -277,7 +277,7 @@ const Index = () => {
                 <div className="flex items-center space-x-2 mb-4">
                   <img 
                     src="/lovable-uploads/85666f82-b58d-442a-b3e7-4f0b912d34ca.png" 
-                    alt="WIZA Logo" 
+                    alt="WIZA" 
                     className="h-8 w-auto"
                   />
                   <span className="text-2xl font-bold">WIZA</span>
@@ -313,8 +313,7 @@ const Index = () => {
                 <ul className="space-y-2 text-sm text-primary-foreground/80">
                   <li>info@wizafortravel.com</li>
                   <li>+91 7899491283</li>
-                  <li><Link to="/policy" className="hover:text-primary-foreground transition-colors">Cancellation Policy</Link></li>
-                  <li><Link to="/payments-refunds" className="hover:text-primary-foreground transition-colors">Payments & Refunds</Link></li>
+                  <li><Link to="/policy" className="hover:text-primary-foreground transition-colors">Refund Policy</Link></li>
                 </ul>
               </div>
             </div>

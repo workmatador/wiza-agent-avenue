@@ -12,7 +12,7 @@ const Navigation = () => {
         <Link to="/" className="flex items-center space-x-2">
           <img 
             src="/lovable-uploads/85666f82-b58d-442a-b3e7-4f0b912d34ca.png" 
-            alt="WIZA Logo" 
+            alt="WIZA" 
             className="h-8 w-auto"
           />
           <span className="text-2xl font-bold text-primary">WIZA</span>
